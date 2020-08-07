@@ -66,6 +66,7 @@ window.onload = () => {
                 return localforage.removeItem(key);
             }
         };
+        
 
         var map = L.map('mapbox', {
             center: dest,
